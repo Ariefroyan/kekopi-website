@@ -30,7 +30,7 @@ function App() {
     return <LoadingAnimation />;
   }
 
-  const basename = import.meta.env.PROD ? '/kekopistreet' : '/';
+  const basename = '/';
 
   return (
     <Router basename={basename}>
